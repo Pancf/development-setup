@@ -28,3 +28,7 @@ set -e
 
 echo "Installing oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#Xcode theme
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+cp ./xcode-theme/* ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
